@@ -1,0 +1,101 @@
+/* globals.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7f6; /* Warna latar belakang yang lebih lembut */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk kedalaman */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50; /* Warna yang lebih gelap dan elegan untuk judul */
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #34495e; /* Judul Bab dengan warna lebih lembut */
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd; /* Garis bawah untuk efek visual */
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #2980b9; /* Warna link yang lebih menonjol */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1abc9c; /* Warna hover yang kontras */
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9; /* Efek hover pada button */
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #34495e;
+  color: #fff;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+footer a {
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #16a085;
+}
